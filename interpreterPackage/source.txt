@@ -1,0 +1,65 @@
+clear X ;
+incr X ;
+incr X ;
+incr X ;
+incr X ;
+
+clear Y ;
+incr Y ;
+incr Y ;
+incr Y ;
+
+clear Z ;
+incr Z ;
+incr Z ;
+
+clear test ;
+clear newTest ;
+
+while Z not 1 do ;
+   decr Z ;
+
+   while X not 7 do ;
+
+      while test not 3 do ;
+
+         while newTest not 5 do ;
+            incr newTest ;
+         end ;
+
+         incr test ;
+      end ;
+
+      incr X ;
+   end ;
+
+   while Y not 7 do ;
+      incr Y ;
+   end ;
+
+   clear k ;
+
+   while k not 10 do ;
+      incr k ;
+   end ;
+end ;
+
+while X not 1 do ;
+   decr X ;
+
+   while k not 5 do ;
+      decr k ;
+   end ;
+end ;
+
+clear var ;
+while Y not 1 do ;
+   decr Y ;
+   while var not 15 do ;
+      incr var ;
+   end ;
+end ;
+
+incr Z ;
+incr X ;
+incr Y ;
